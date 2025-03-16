@@ -35,7 +35,7 @@ const projectsData = {
     type: 'Office Space',
     size: '470sqft',
     year: '2018',
-    description: 'One of the most challenging projects, which required maximum use of the very limited space given. Being the first project I undertook, while in my second year at college, it was a great project to have tested all my skills right from the very beginning. Although the project may not have been built due to further expansion of the company, it was a great way to start off my professional career. The client wanted a space that's bright and colourful and the inspiration was taken from one of their very own magazines.',
+    description: "One of the most challenging projects, which required maximum use of the very limited space given. Being the first project I undertook, while in my second year at college, it was a great project to have tested all my skills right from the very beginning. Although the project may not have been built due to further expansion of the company, it was a great way to start off my professional career. The client wanted a space that's bright and colourful and the inspiration was taken from one of their very own magazines.",
   },
   'united-nations-conference-hall': {
     title: 'United Nations Conference Hall',
