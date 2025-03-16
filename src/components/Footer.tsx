@@ -9,8 +9,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Column 1 - Logo and About */}
           <div className="space-y-5">
-            <Link to="/" className="text-2xl font-display font-semibold tracking-tight">
-              <span className="text-design-accent">Bevan</span> Jonathan
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/4de71902-664e-40a5-9e47-6bba44836771.png" 
+                alt="BEURANT DESIGN Logo" 
+                className="h-12 w-auto mr-3 filter brightness-0 invert" 
+              />
+              <span className="text-2xl font-display font-semibold tracking-tight">
+                BEURANT DESIGN
+              </span>
             </Link>
             <p className="text-gray-300 mt-4 max-w-md">
               Creating appealing and unique spaces based on client requirements, budget and timeline. 
@@ -62,8 +69,8 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <Mail className="text-design-accent mr-3 mt-1 flex-shrink-0" size={18} />
-                <a href="mailto:info@bevanjd.com" className="text-gray-300 hover:text-design-accent transition-colors">
-                  info@bevanjd.com
+                <a href="mailto:info@beurantdesign.com" className="text-gray-300 hover:text-design-accent transition-colors">
+                  info@beurantdesign.com
                 </a>
               </div>
               <div className="flex items-start">
@@ -77,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Bevan Jonathan David. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BEURANT DESIGN. All rights reserved.</p>
         </div>
       </div>
     </footer>

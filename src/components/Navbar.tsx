@@ -41,9 +41,16 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-display font-semibold tracking-tight hover:text-primary">
-              <span className="text-primary">Bevan</span> Jonathan
+          <div className="flex-shrink-0 flex items-center">
+            <Link to="/" className="flex items-center hover:text-primary">
+              <img 
+                src="/lovable-uploads/4de71902-664e-40a5-9e47-6bba44836771.png" 
+                alt="BEURANT DESIGN Logo" 
+                className="h-12 w-auto mr-3" 
+              />
+              <span className="text-xl font-display font-semibold tracking-tight">
+                BEURANT DESIGN
+              </span>
             </Link>
           </div>
           

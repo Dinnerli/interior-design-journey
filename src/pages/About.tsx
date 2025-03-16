@@ -86,14 +86,17 @@ const About = () => {
               <div className="sticky top-32">
                 <div className="relative mb-8 animate-slide-up">
                   <img 
-                    src="/lovable-uploads/07518459-6dc2-4bf3-809c-0f2f242eab68.png" 
+                    src="/lovable-uploads/0d7b32e7-808f-4fd4-a24a-c98e26b0460c.png" 
                     alt="Bevan Jonathan David" 
-                    className="rounded-lg shadow-xl w-full h-auto object-cover" 
+                    className="rounded-full shadow-xl w-64 h-64 object-cover mx-auto" 
                   />
                 </div>
                 
-                <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 animate-slide-up">
-                  <h3 className="text-xl font-display font-medium mb-4">Specializations</h3>
+                <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 animate-slide-up text-center md:text-left">
+                  <h3 className="text-xl font-display font-medium mb-4">Bevan Jonathan David</h3>
+                  <p className="text-primary mb-6">BA(Hons.) Interior Design</p>
+                  
+                  <h4 className="text-lg font-display font-medium mb-4">Specializations</h4>
                   <ul className="space-y-3">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
