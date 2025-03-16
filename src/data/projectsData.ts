@@ -1,8 +1,10 @@
+
 export interface Project {
   title: string;
   location: string;
   image: string;
   secondaryImage: string;
+  additionalImages?: string[];
   type: string;
   size: string;
   year: string;
@@ -18,8 +20,11 @@ const projectsData: ProjectsDataType = {
   'united-nations-rc-office': {
     title: 'Resident Coordinator\'s Office',
     location: 'UN Compound, Sri Lanka',
-    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
-    secondaryImage: '/lovable-uploads/c1a8dbf9-c004-4f0e-b0a2-c7f579039621.png',
+    image: '/lovable-uploads/d5008956-579d-4b40-951c-d29cdd18ea4c.png',
+    secondaryImage: '/lovable-uploads/a68c833b-15fc-466a-9824-7267b0ee8ee4.png',
+    additionalImages: [
+      '/lovable-uploads/c1a8dbf9-c004-4f0e-b0a2-c7f579039621.png'
+    ],
     type: 'Office Space',
     size: '1530sqft',
     year: '2022',
@@ -40,7 +45,7 @@ const projectsData: ProjectsDataType = {
   'unicef-rooftop-lounge': {
     title: 'Rooftop Lounge',
     location: 'Colombo 07, Sri Lanka',
-    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    image: '/lovable-uploads/852b38e9-5923-4dc8-b5a7-0ab9eb461d7a.png',
     secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
     type: 'Lounge',
     size: '800sqft',
@@ -316,7 +321,7 @@ const projectsData: ProjectsDataType = {
   'jat-holdings-stall': {
     title: 'JAT Holdings Stall',
     location: 'Sri Lanka Design Festival',
-    image: '/lovable-uploads/43c77f58-07c0-407c-9983-cb31dc70d974.png',
+    image: '/lovable-uploads/3d7d20eb-2db2-4eb3-b421-1226384fbe4e.png',
     secondaryImage: '/lovable-uploads/43c77f58-07c0-407c-9983-cb31dc70d974.png',
     type: 'Exhibition Stall',
     size: '580sqft',
@@ -326,7 +331,7 @@ const projectsData: ProjectsDataType = {
   'aviation-voice': {
     title: 'Aviation Voice',
     location: 'Nugegoda',
-    image: '/lovable-uploads/15449c9f-314c-4587-b2e3-26942516db03.png',
+    image: '/lovable-uploads/ae66ff19-b00d-48e9-9e04-e2c8e4ed1eb9.png',
     secondaryImage: '/lovable-uploads/15449c9f-314c-4587-b2e3-26942516db03.png',
     type: 'Office Space',
     size: '470sqft',
