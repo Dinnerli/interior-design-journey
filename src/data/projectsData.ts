@@ -1,4 +1,3 @@
-
 export interface Project {
   title: string;
   location: string;
@@ -343,6 +342,94 @@ const projectsData: ProjectsDataType = {
     size: '680sqft',
     year: '2021',
     description: 'A contemporary salon space designed with functionality and aesthetic appeal in mind. The project focused on creating an inviting atmosphere for clients while ensuring an efficient workflow for the stylists.',
+  },
+  'matara-convent': {
+    title: 'Primary School Public Auditorium',
+    location: 'Matara, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Educational Space',
+    size: '1500sqft',
+    year: '2020',
+    description: 'A public auditorium designed for a primary school, with focus on accommodating school functions and community events.',
+    client: 'Matara Convent'
+  },
+  'food-web': {
+    title: 'Restaurant',
+    location: 'Mattakuliya, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Restaurant',
+    size: '850sqft',
+    year: '2021',
+    description: 'A contemporary restaurant space with modern design elements focusing on creating a welcoming dining experience.',
+    client: 'Food Web'
+  },
+  'fibaro': {
+    title: 'Showroom Space',
+    location: 'Pitakotte, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Showroom',
+    size: '700sqft',
+    year: '2021',
+    description: 'A modern showroom designed to showcase smart home technology products in an interactive environment.',
+    client: 'Fibaro'
+  },
+  'the-cuisine': {
+    title: 'Restaurant',
+    location: 'Colombo 07, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Restaurant',
+    size: '950sqft',
+    year: '2020',
+    description: 'An elegantly designed restaurant space focusing on creating a comfortable and sophisticated dining experience.',
+    client: 'The Cuisine'
+  },
+  'ard-holdings': {
+    title: 'Car Park',
+    location: 'CR & FC, Colombo 07, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Car Park',
+    size: '3000sqft',
+    year: '2022',
+    description: 'A functional and efficient car park design for a sports club, with careful consideration of traffic flow and space optimization.',
+    client: 'ARD Holdings (Pvt) Ltd'
+  },
+  'sense-micro': {
+    title: 'Sense.lk Showroom 01',
+    location: 'Ground Floor - Unity Plaza, Colombo 04, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Showroom',
+    size: '650sqft',
+    year: '2021',
+    description: 'A modern retail showroom designed to display and showcase electronic products in an engaging environment.',
+    client: 'Sense Micro Distributions'
+  },
+  'future-i-dimo': {
+    title: 'DIMO Flagship Store',
+    location: 'Pannipitiya, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Retail Store',
+    size: '1200sqft',
+    year: '2022',
+    description: 'A flagship store designed to showcase the DIMO brand and products in a premium retail environment.',
+    client: 'Future-i'
+  },
+  'future-i-elephant': {
+    title: 'Elephant House Vendor Container Stall',
+    location: 'Arcade Independence Square, Colombo 07, Sri Lanka',
+    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    secondaryImage: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
+    type: 'Container Stall',
+    size: '250sqft',
+    year: '2021',
+    description: 'An innovative container stall designed for Elephant House, situated in a prime location at Arcade Independence Square.',
+    client: 'Future-i'
   },
 };
 
