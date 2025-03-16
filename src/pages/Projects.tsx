@@ -4,57 +4,18 @@ import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProjectCard from '@/components/ProjectCard';
+import projectsData from '@/data/projectsData';
 
-const projects = [
-  {
-    id: 'united-nations-rc-office',
-    title: 'United Nations RC Office',
-    location: 'Thunmulla',
-    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
-    type: 'Office Space',
-    size: '1530sqft',
-  },
-  {
-    id: 'jat-holdings-stall',
-    title: 'JAT Holdings Stall',
-    location: 'Sri Lanka Design Festival',
-    image: '/lovable-uploads/43c77f58-07c0-407c-9983-cb31dc70d974.png',
-    type: 'Exhibition Stall',
-    size: '580sqft',
-  },
-  {
-    id: 'aviation-voice',
-    title: 'Aviation Voice',
-    location: 'Nugegoda',
-    image: '/lovable-uploads/15449c9f-314c-4587-b2e3-26942516db03.png',
-    type: 'Office Space',
-    size: '470sqft',
-  },
-  {
-    id: 'united-nations-conference-hall',
-    title: 'United Nations Conference Hall',
-    location: 'Thunmulla',
-    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
-    type: 'Conference Space',
-    size: '950sqft',
-  },
-  {
-    id: 'bella-hair-designs',
-    title: 'Bella Hair Designs',
-    location: 'Kandana',
-    image: '/lovable-uploads/0c2291eb-05da-4f0e-83a1-239a723f73bc.png',
-    type: 'Salon',
-    size: '680sqft',
-  },
-  {
-    id: 'united-nations-ops-office',
-    title: 'United Nations OPS Office',
-    location: 'Kinsey Road',
-    image: '/lovable-uploads/3372d304-83f6-4f63-881e-5f290429893e.png',
-    type: 'Office Space',
-    size: '1200sqft',
-  },
-];
+// Convert the projectsData object to an array for the projects page
+const projects = Object.entries(projectsData).map(([id, project]) => ({
+  id,
+  title: project.title,
+  location: project.location,
+  image: project.image,
+  type: project.type,
+  size: project.size,
+  client: project.client,
+}));
 
 // Animation variants
 const fadeIn = {

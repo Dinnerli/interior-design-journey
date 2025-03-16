@@ -9,10 +9,11 @@ interface ProjectCardProps {
   location: string;
   image: string;
   type: string;
+  client?: string;
   index: number;
 }
 
-const ProjectCard = ({ id, title, location, image, type, index }: ProjectCardProps) => {
+const ProjectCard = ({ id, title, location, image, type, client, index }: ProjectCardProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
@@ -41,6 +42,11 @@ const ProjectCard = ({ id, title, location, image, type, index }: ProjectCardPro
         <span className="inline-block px-3 py-1 text-xs tracking-wider uppercase bg-primary/80 rounded-full mb-3">
           {type}
         </span>
+        
+        {client && (
+          <div className="text-sm text-white/90 mb-1">{client}</div>
+        )}
+        
         <h3 className="text-2xl font-display font-medium mb-1">{title}</h3>
         <p className="text-white/80 mb-4">{location}</p>
         
