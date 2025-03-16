@@ -17,6 +17,12 @@ const ProjectGallery = ({ project }: ProjectGalleryProps) => {
     ...(project.additionalImages || [])
   ].filter(img => img && img !== project.image && img !== project.secondaryImage);
 
+  // Add new image for UN RC Office project
+  if (window.location.pathname.includes('united-nations-rc-office')) {
+    // Replace the current active image with the new one
+    images[activeIndex] = '/lovable-uploads/679ccbcc-92ee-41ab-955c-dcaf5f6b8a67.png';
+  }
+
   const navigateGallery = (direction: 'prev' | 'next') => {
     if (direction === 'prev') {
       setActiveIndex(prev => (prev === 0 ? images.length - 1 : prev - 1));

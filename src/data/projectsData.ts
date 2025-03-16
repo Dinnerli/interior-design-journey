@@ -20,7 +20,7 @@ const projectsData: ProjectsDataType = {
   'united-nations-rc-office': {
     title: 'Resident Coordinator\'s Office',
     location: 'UN Compound, Sri Lanka',
-    image: '/lovable-uploads/d5008956-579d-4b40-951c-d29cdd18ea4c.png',
+    image: '/lovable-uploads/679ccbcc-92ee-41ab-955c-dcaf5f6b8a67.png',
     secondaryImage: '/lovable-uploads/a68c833b-15fc-466a-9824-7267b0ee8ee4.png',
     additionalImages: [
       '/lovable-uploads/c1a8dbf9-c004-4f0e-b0a2-c7f579039621.png'
