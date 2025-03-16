@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, LayoutGrid, Map, Users, CheckCircle } from 'lucide-react';
@@ -132,7 +131,7 @@ const Index = () => {
             <div className="animate-slide-up">
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/0d7b32e7-808f-4fd4-a24a-c98e26b0460c.png"
+                  src="/lovable-uploads/c772d43b-48f1-4cf5-9532-17d29aa093d2.png"
                   alt="Bevan Jonathan David" 
                   className="rounded-lg shadow-xl w-full h-auto object-cover" 
                 />

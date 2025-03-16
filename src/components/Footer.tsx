@@ -24,13 +24,10 @@ const Footer = () => {
               Every project is handled with care from concept to completion.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-300 hover:text-design-accent transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-design-accent transition-colors">
+              <a href="https://www.instagram.com/beurant/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-design-accent transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-design-accent transition-colors">
+              <a href="https://www.facebook.com/Beurant/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-design-accent transition-colors">
                 <Facebook size={20} />
               </a>
             </div>
@@ -75,8 +72,8 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <Phone className="text-design-accent mr-3 mt-1 flex-shrink-0" size={18} />
-                <a href="tel:+94777123456" className="text-gray-300 hover:text-design-accent transition-colors">
-                  +94 777 123 456
+                <a href="tel:+94764052630" className="text-gray-300 hover:text-design-accent transition-colors">
+                  +94 764 052 630
                 </a>
               </div>
             </div>

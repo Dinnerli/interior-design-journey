@@ -86,7 +86,7 @@ const About = () => {
               <div className="sticky top-32">
                 <div className="relative mb-8 animate-slide-up">
                   <img 
-                    src="/lovable-uploads/0d7b32e7-808f-4fd4-a24a-c98e26b0460c.png" 
+                    src="/lovable-uploads/c772d43b-48f1-4cf5-9532-17d29aa093d2.png" 
                     alt="Bevan Jonathan David" 
                     className="rounded-full shadow-xl w-64 h-64 object-cover mx-auto" 
                   />
