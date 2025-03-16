@@ -58,9 +58,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
         design: {
-          dark: '#1E3A38',
+          dark: '#0A0A0A',
           light: '#F0F4F3',
-          accent: '#00A69C',
+          accent: '#C49E57',
+          darkgray: '#1A1A1A',
+          gold: '#D4AF37',
+          softgold: '#BFA46F',
         }
 			},
 			borderRadius: {
